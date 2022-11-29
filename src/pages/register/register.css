@@ -1,0 +1,52 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:
+        url("https://img.freepik.com/free-vector/happy-couple-walk-street_107791-12254.jpg?w=1380&t=st=1669715901~exp=1669716501~hmac=c3d729ea272901fe3cc7b07a27e5bb87249399ea0f88529df49d7c81826f4f4b");
+        background-size: cover;
+}
+
+.registerTitle {
+    font-size: 50px;
+    color: rgb(3, 7, 78);
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(69, 33, 159);
+}
+
+.registerForm > inputlabel {
+    margin: 10px 0;
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
